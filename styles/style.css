@@ -112,3 +112,102 @@ header{
   margin: 30px 100px 0px 100px;
   
 }
+
+.content-box-2{
+  justify-content: left;
+}
+
+.text-box{
+  margin: 50px;
+}
+
+.text-box .text-box h4{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+}
+
+
+.text-box .text-p{
+  width: 464px;
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.text-box .text-box-btn{
+  background-color: #ffffff;
+  color: #474747;
+  padding: 12px 27px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.img-box{
+  padding-right: 30px;
+}
+
+.img-box-2{
+  padding-left: 30px;
+}
+
+.inspiration{
+  margin: 100px 150px;
+}
+
+.title-text-2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  padding-top: 80px;
+}
+
+.sub-title-text-2{
+  margin: 0px 150px;
+  text-align: center;
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  
+}
+
+.iframe{
+  border: rgba(13 19 33 0.2) 1px solid;
+  border-radius: 16px;
+  padding: 32px;
+  
+}
+
+.video{
+  border-radius: 16px;
+
+}
+
+
+
+.my-current-target{
+  margin: 150px 150px 0px 150px;
+}
+
+.my-current-target .title-text-3{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.sub-title-text-3{
+  margin: 0px 100px;
+  text-align: center;
+  color: #474747;
+  font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-weight: 400;
+  line-height: 25px;
+
+}
