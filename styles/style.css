@@ -89,14 +89,15 @@ header {
   border-radius: 10px;
 }
 
-.text-box-title-1 {
+
+.title-text {
   text-align: center;
   font-size: 36px;
   font-weight: 800px;
   padding-top: 80px;
 }
 
-.subtitle-para-1 {
+.sub-title-text {
   margin: 0px 150px;
   text-align: center;
   color: #474747;
@@ -108,11 +109,16 @@ header {
 .content-box {
   border-radius: 10px;
   margin: 30px 100px 0px 100px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
 .content-box-2 {
   justify-content: left;
+
 }
 
 .text-box {
@@ -128,7 +134,7 @@ header {
 }
 
 
-.text-box .text-p {
+.text-box-p {
   width: 464px;
   color: #474747;
   font-size: 16px;
@@ -247,3 +253,86 @@ header {
 
 }
 
+.card-container a{
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.i-need-support{
+  margin: 150px 150px 0px 150px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../Images/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no repeat;
+  border-radius: 16px;
+  height: 360px;
+  text-align: center;
+
+}
+
+.i-need-support h1{
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  word-spacing: 8px;
+  letter-spacing: 1px;
+  padding-top: 80px;
+
+}
+
+.i-need-support p{
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  margin: 0px 200px;
+}
+
+.i-need-support .input input{
+  width: 500px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+.i-need-support .input button{
+  margin-left: 10px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+
+
+footer{
+  margin: 100px;
+  background-color: rgb(13, 19 33 0.03);
+  height: 120px;
+}
+
+footer .footer-box{
+  margin: 150px 150px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+footer .footer-box h2{
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+footer .footer-box .footer-img-box img{
+  padding: 0px 10px;
+}
