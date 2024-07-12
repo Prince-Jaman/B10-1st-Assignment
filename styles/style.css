@@ -15,8 +15,8 @@
 .nav-style {
   display: flex;
   margin: 30px 100px;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-style h4 {
@@ -26,8 +26,8 @@
 
 .nav-style button {
   padding: 10px 15px;
-  border-radius: 5px;
   background-color: #ffffff;
+  border-radius: 5px;
   font-weight: 600px;
   color: rgb(13, 19, 33);
   opacity: 0.8;
@@ -85,9 +85,10 @@
 
 .about-title {
   margin: 150px 150px 0px 150px;
+  margin-top: 72px;
   background-color: rgba(13, 19, 33, 0.02);
   border-radius: 10px;
-  margin-top: 72px;
+  
 }
 
 
@@ -108,19 +109,17 @@
   line-height: 25px;
 }
 
-.content-box{
+.content-box {
   border-radius: 10px;
   margin: 30px 100px 0px 100px;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .content-box-2 {
   justify-content: left;
-
 }
 
 .text-box {
@@ -132,7 +131,6 @@
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 4px;
-
 }
 
 
@@ -161,6 +159,8 @@
   padding-left: 30px;
 }
 
+/* Inspiration section start */
+
 .inspiration {
   margin: 100px 150px;
 }
@@ -174,28 +174,30 @@
 
 .sub-title-text-2 {
   margin: 0px 150px;
-  text-align: center;
   color: #474747;
-  font-size: 16px;
+  text-align: center;
   font-weight: 400;
+  font-size: 16px;
   line-height: 25px;
 
 }
 
-.iframe {
-  border:2px solid rgba(13, 19, 33, 0.2);
-  border-radius: 2px;
-  padding: 32px;
+..iframe {
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
   
-  
-
 }
 
 .video {
+  border: 2px, solid rgba(13, 19, 33, 0.2);;
   border-radius: 16px;
-  margin-left: 150px;
-
+  margin-left: 170px;
+  padding: 32px;
 }
+
+/* Inspiration section end */
+
+/* My current target start */
 
 .my-current-target {
   margin: 150px 150px 0px 150px;
@@ -209,13 +211,14 @@
 
 .sub-title-text-3 {
   margin: 0px 100px;
-  text-align: center;
   color: #474747;
   font-size: 18px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   word-spacing: 1px;
   font-weight: 400;
   line-height: 25px;
+  text-align: center;
+  
 }
 
 .card-container {
@@ -240,13 +243,12 @@
 
 }
 
-.card-container h4{
+.card-container h4 {
   font-size: 24px;
   font-weight: 900;
-  
 }
 
-.card-container p{
+.card-container p {
 
   font-size: 16px;
   color: #474747;
@@ -256,17 +258,19 @@
 
 }
 
-.card-container a{
+.card-container a {
   color: #000000;
   font-size: 18px;
   font-weight: bold;
 }
 
+/* My current target end */
 
+/* I need support section start */
 
-.i-need-support{
+.i-need-support {
   margin: 150px 150px 0px 150px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../Images/handshake.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/handshake.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -276,7 +280,7 @@
 
 }
 
-.i-need-support h1{
+.i-need-support h1 {
   color: #ffffff;
   font-size: 32px;
   font-weight: bold;
@@ -286,7 +290,7 @@
 
 }
 
-.i-need-support p{
+.i-need-support p {
   color: #ffffff;
   font-size: 16px;
   line-height: 25px;
@@ -296,12 +300,11 @@
   margin: 0px 200px;
 }
 
-.i-need-support .input{
+.i-need-support .input {
   margin: 20px 0px;
 }
 
-
-.i-need-support .input input{
+.i-need-support .input input {
   width: 500px;
   padding: 20px 40px;
   border-radius: 10px;
@@ -311,7 +314,7 @@
   letter-spacing: 2px;
 }
 
-.i-need-support .input button{
+.i-need-support .input button {
   margin-left: 10px;
   padding: 20px 30px;
   border-radius: 10px;
@@ -321,26 +324,30 @@
   letter-spacing: 1px;
 }
 
+/* I need support section end */
+
 /* footer section start */
 
-footer{
+footer {
   margin-top: 100px;
   background-color: rgb(13, 19 33 0.03);
   height: 120px;
 }
 
-footer .footer-box{
+footer .footer-box {
   margin: 150px 150px 0px 150px;
   display: flex;
   justify-content: space-between;
   padding: 40px 0px;
 }
 
-footer .footer-box h2{
+footer .footer-box h2 {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
 
-footer .footer-box .footer-img-box img{
+footer .footer-box .footer-img-box img {
   padding: 0px 10px;
 }
+
+/* footer section end */
