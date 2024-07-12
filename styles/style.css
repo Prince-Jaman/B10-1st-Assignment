@@ -1,6 +1,3 @@
-
-
-
 .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
@@ -8,30 +5,30 @@
   font-style: normal;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 /* header section style */
 
-header{
+header {
   height: 60px;
 }
 
-.nav-style{
-    display: flex;
-    margin: 30px 100px;
-    justify-content: space-between;
-    align-items: center;
+.nav-style {
+  display: flex;
+  margin: 30px 100px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-style h4{
-    font-size: 28px;
-    font-weight: 600px;
+.nav-style h4 {
+  font-size: 28px;
+  font-weight: 600px;
 }
 
-.nav-style button{
+.nav-style button {
   padding: 10px 15px;
   border-radius: 5px;
   background-color: #ffffff;
@@ -42,31 +39,32 @@ header{
 
 /* banner section style start */
 
-.banner-style{
+.banner-style {
   background-image: url(../Images/Hero-bg.png);
   height: 650px;
   background-repeat: none;
   background-size: cover;
   text-align: center;
 }
-.banner-style img{
+
+.banner-style img {
   margin-top: 50px;
 }
 
-.banner h2{
+.banner h2 {
   margin-top: 30px;
   font-size: 48px;
-  
+
 }
 
-.banner p{
+.banner p {
   margin: 20px 300px;
-  color:  #474747;
+  color: #474747;
   opacity: 0.9;
   line-height: 25px;
 }
 
-.banner-btn{
+.banner-btn {
   border-radius: 5px;
   border: none;
   padding: 20px 35px;
@@ -85,20 +83,20 @@ header{
 
 /* web development section start */
 
-.about-title{
+.about-title {
   margin: 150px 150px 0px 150px;
   background-color: rgba(13, 19, 33, 0.02);
   border-radius: 10px;
 }
 
-.text-box-title-1{
+.text-box-title-1 {
   text-align: center;
   font-size: 36px;
   font-weight: 800px;
   padding-top: 80px;
 }
 
-.subtitle-para-1{
+.subtitle-para-1 {
   margin: 0px 150px;
   text-align: center;
   color: #474747;
@@ -107,21 +105,21 @@ header{
   line-height: 25px;
 }
 
-.content-box{
+.content-box {
   border-radius: 10px;
   margin: 30px 100px 0px 100px;
-  
+
 }
 
-.content-box-2{
+.content-box-2 {
   justify-content: left;
 }
 
-.text-box{
+.text-box {
   margin: 50px;
 }
 
-.text-box .text-box h4{
+.text-box .text-box h4 {
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
@@ -130,7 +128,7 @@ header{
 }
 
 
-.text-box .text-p{
+.text-box .text-p {
   width: 464px;
   color: #474747;
   font-size: 16px;
@@ -139,7 +137,7 @@ header{
   letter-spacing: 1px;
 }
 
-.text-box .text-box-btn{
+.text-box .text-box-btn {
   background-color: #ffffff;
   color: #474747;
   padding: 12px 27px;
@@ -147,60 +145,60 @@ header{
   font-weight: 700;
 }
 
-.img-box{
+.img-box {
   padding-right: 30px;
 }
 
-.img-box-2{
+.img-box-2 {
   padding-left: 30px;
 }
 
-.inspiration{
+.inspiration {
   margin: 100px 150px;
 }
 
-.title-text-2{
+.title-text-2 {
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
   padding-top: 80px;
 }
 
-.sub-title-text-2{
+.sub-title-text-2 {
   margin: 0px 150px;
   text-align: center;
   color: #474747;
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
-  
+
 }
 
-.iframe{
+.iframe {
   border: rgba(13 19 33 0.2) 1px solid;
   border-radius: 16px;
   padding: 32px;
-  
+
 }
 
-.video{
+.video {
   border-radius: 16px;
 
 }
 
 
 
-.my-current-target{
+.my-current-target {
   margin: 150px 150px 0px 150px;
 }
 
-.my-current-target .title-text-3{
+.my-current-target .title-text-3 {
   text-align: center;
   font-size: 36px;
   font-weight: bolder;
 }
 
-.sub-title-text-3{
+.sub-title-text-3 {
   margin: 0px 100px;
   text-align: center;
   color: #474747;
@@ -209,5 +207,43 @@ header{
   word-spacing: 1px;
   font-weight: 400;
   line-height: 25px;
+}
+
+.card-container {
+  margin-top: 50px;
+  display: flex;
+}
+
+.card-box-1 {
+  background-color: rgba(255, 76, 30, 0.05);
+  margin: 0px 10px;
+  width: 400;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.card-box-3 {
+  background-color: rgba(255, 76, 30, 0.05);
+  margin: 0px 10px;
+  width: 400;
+  border-radius: 16px;
+  padding: 40px;
 
 }
+
+.card-container h4{
+  font-size: 24px;
+  font-weight: 900;
+  
+}
+
+.card-container p{
+
+  font-size: 16px;
+  color: #474747;
+  margin-top: 20px;
+  line-height: 25px;
+  letter-spacing: 1px;
+
+}
+
